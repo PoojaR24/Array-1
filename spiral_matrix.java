@@ -13,6 +13,7 @@ public class Solution {
         
         while(true){
             //iterates from 00 to 02 in case of example 1
+            //also iterates for 11 for example 1
             for(int i = left; i <= right; i++)
             {
                 res.add(matrix[top][i]);
